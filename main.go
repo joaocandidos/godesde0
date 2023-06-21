@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "github.com/joaocandidos/godesde0/variables"
 
 func main() {
-	fmt.Println("Olá Mundo")
+	variables.MostroEnteros()
 }
