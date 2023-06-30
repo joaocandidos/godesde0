@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/joaocandidos/godesde0/ejercicios"
-)
+import "github.com/joaocandidos/godesde0/teclado"
 
 func main() {
 	//variables.MostroEnteros()
@@ -12,7 +8,9 @@ func main() {
 
 	//estado, texto := variables.ConviertoaTexto(2345)
 	//fmt.Println(estado, texto)
-	numero, texto := ejercicios.DoisValores("199")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	//numero, texto := ejercicios.DoisValores("199")
+	//fmt.Println(numero)
+	//fmt.Println(texto)
+
+	teclado.IngresoNumeros()
 }
