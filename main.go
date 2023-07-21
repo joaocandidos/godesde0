@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/joaocandidos/godesde0/files"
+	//"github.com/joaocandidos/godesde0/files"
+	"github.com/joaocandidos/godesde0/funciones"
 )
 
 func main() {
@@ -20,5 +21,6 @@ func main() {
 	//fmt.Println(ejercicios.TablaDeMultiplicar())
 	//files.GravaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	funciones.Calculos()
 }
